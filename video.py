@@ -259,22 +259,53 @@ async def _edge(text, path):
     return words
 
 
-def tts(text, path):
-    """Возвращает (путь к аудио или None, список слов с таймингом или None)."""
-    try:
-        words = asyncio.run(asyncio.wait_for(_edge(text, path), timeout=60))
-        if os.path.getsize(path) > 1000:
-            return path, words or None
-    except Exception as e:  # noqa: BLE001
-        print("edge-tts недоступен:", str(e)[:120])
+def edge_tts_retry(text, path, tries=4):
+    """edge-tts иногда отвечает 429 (слишком часто): повторяем с паузой."""
+    for attempt in range(tries):
+        try:
+            words = asyncio.run(asyncio.wait_for(_edge(text, path), timeout=60))
+            if os.path.getsize(path) > 1000:
+                return words or []
+        except Exception as e:  # noqa: BLE001
+            print(f"edge-tts, попытка {attempt + 1}: {str(e)[:100]}")
+        time.sleep(5 * (attempt + 1) ** 2)
+    return None
+
+
+def gtts_save(text, path):
     try:
         from gtts import gTTS
         gTTS(text, lang="ru").save(path)
-        if os.path.getsize(path) > 1000:
-            return path, None
+        return os.path.getsize(path) > 1000
     except Exception as e:  # noqa: BLE001
         print("gTTS недоступен:", str(e)[:120])
-    return None, None
+        return False
+
+
+def synth_all(texts, work):
+    """Озвучка всех сегментов одним голосом: edge-tts, а если он не справился хоть раз, всё через gTTS.
+
+    Возвращает список (путь к аудио или None, слова с таймингом или None).
+    """
+    result = []
+    for i, text in enumerate(texts):
+        path = os.path.join(work, f"a{i}.mp3")
+        words = edge_tts_retry(text, path)
+        if words is None:
+            print("edge-tts недоступен, переключаюсь на gTTS для всего ролика.")
+            break
+        result.append((path, words or None))
+        time.sleep(2)
+    else:
+        return result
+    result = []
+    for i, text in enumerate(texts):
+        path = os.path.join(work, f"g{i}.mp3")
+        if not gtts_save(text, path):
+            print("Озвучка недоступна: ролик будет без голоса.")
+            return [(None, None)] * len(texts)
+        result.append((path, None))
+    return result
 
 
 # ---------- 4. Картинки ----------
@@ -514,9 +545,8 @@ def run(cmd):
         raise RuntimeError("ffmpeg error")
 
 
-def render_segment(seg, i, work):
+def render_segment(seg, i, work, audio, words):
     text = for_voice(seg["voice"])
-    audio, words = tts(text, os.path.join(work, f"a{i}.mp3"))
     if audio:
         speech = ffprobe_duration(audio)
     else:
@@ -605,10 +635,11 @@ def main():
     os.makedirs(OUT_DIR, exist_ok=True)
     work = os.path.join(OUT_DIR, "work")
     os.makedirs(work, exist_ok=True)
+    voices = synth_all([for_voice(seg["voice"]) for seg in segments], work)
     parts, voiced = [], True
     for i, seg in enumerate(segments):
         print(f"Сегмент {i + 1}/{len(segments)}: {seg['title'][:60]}")
-        part, has_voice = render_segment(seg, i, work)
+        part, has_voice = render_segment(seg, i, work, *voices[i])
         parts.append(part)
         voiced = voiced and has_voice
     out = os.path.join(OUT_DIR, f"kripto_era_{date:%Y%m%d_%H%M}.mp4")
