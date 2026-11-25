@@ -67,12 +67,14 @@ def load_state():
     data.setdefault("seen", [])
     data.setdefault("recent_titles", [])
     data.setdefault("last_source", "")
+    data.setdefault("posted", [])  # для видео-дайджеста (video.py)
     return data
 
 
 def save_state(state):
     state["seen"] = state["seen"][-3000:]
     state["recent_titles"] = state["recent_titles"][-60:]
+    state["posted"] = state["posted"][-30:]
     with open(STATE_FILE, "w", encoding="utf-8") as f:
         json.dump(state, f, ensure_ascii=False, indent=0)
 
@@ -235,6 +237,8 @@ def main():
             continue
         state["seen"].append(c["link"])
         state["recent_titles"].append(title)
+        state["posted"].append({"title": title, "summary": summary, "source": c["source"],
+                                "link": c["link"], "ts": int(time.time())})
         state["last_source"] = c["source"]
         posted += 1
         time.sleep(3)

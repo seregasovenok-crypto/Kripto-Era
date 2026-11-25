@@ -1,0 +1,42 @@
+name: Видео для TikTok
+
+on:
+  schedule:
+    # каждый день в 20:30 по Москве (UTC+3): дайджест главных новостей дня
+    - cron: "30 17 * * *"
+  workflow_dispatch:
+    inputs:
+      news:
+        description: "Сколько новостей в ролике"
+        default: "3"
+  pull_request:
+    paths: ["video.py", "requirements-video.txt", ".github/workflows/video.yml"]
+
+concurrency:
+  group: video
+  cancel-in-progress: true
+
+jobs:
+  video:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg fonts-liberation fonts-dejavu-core
+      - run: pip install -r requirements-video.txt
+      - run: python video.py
+        env:
+          VIDEO_NEWS: ${{ github.event.inputs.news || '3' }}
+          # в PR только собираем тестовый ролик, ничего не отправляем
+          VIDEO_SEND: ${{ github.event_name == 'pull_request' && '0' || '1' }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHANNEL: ${{ secrets.TELEGRAM_CHANNEL }}
+          TELEGRAM_VIDEO_CHAT: ${{ secrets.TELEGRAM_VIDEO_CHAT }}
+      - uses: actions/upload-artifact@v4
+        with:
+          name: tiktok-video
+          path: out/
+          retention-days: 14
