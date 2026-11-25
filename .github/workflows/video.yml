@@ -12,6 +12,9 @@ on:
   pull_request:
     paths: ["video.py", "requirements-video.txt", ".github/workflows/video.yml"]
 
+permissions:
+  contents: write
+
 concurrency:
   group: video
   cancel-in-progress: true
@@ -40,3 +43,13 @@ jobs:
           name: tiktok-video
           path: out/
           retention-days: 14
+      - name: Положить свежий ролик в ветку videos (скачивать прямо с GitHub)
+        run: |
+          mkdir -p /tmp/pub && cp out/*.mp4 /tmp/pub/latest.mp4 && cp out/caption.txt /tmp/pub/caption.txt
+          cd /tmp/pub
+          git init -q -b videos
+          git config user.name "kripto-era-bot"
+          git config user.email "kripto-era-bot@users.noreply.github.com"
+          printf '# Свежий ролик для TikTok\n\n[Скачать latest.mp4](latest.mp4) → кнопка «Download raw file».\nОписание и хэштеги: [caption.txt](caption.txt)\n' > README.md
+          git add -A && git commit -q -m "Ролик $(date -u +%Y-%m-%d)"
+          git push -f "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" videos
