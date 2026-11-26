@@ -343,7 +343,15 @@
 "https://decrypt.co/383944/french-senate-rejects-plan-to-make-crypto-holders-declare-self-custody-wallets",
 "https://decrypt.co/383941/florida-man-jailed-for-using-ai-to-pose-as-streamer-n3on-in-260k-crypto-scam",
 "https://decrypt.co/383938/hyperliquid-leads-altcoin-losses-as-bitcoin-slips-below-59k",
-"https://forklog.com/fcc-razreshila-spacex-sozdat-ii-data-tsentry-v-kosmose"
+"https://forklog.com/fcc-razreshila-spacex-sozdat-ii-data-tsentry-v-kosmose",
+"https://bits.media/analitiki-21shares-uvideli-novoe-dno-bitkoina/",
+"https://ru.beincrypto.com/gold-etf-ottok-sredstv-krupneyshiy-s-iyunya/",
+"https://www.coindesk.com/business/2026/11/25/french-senate-blocks-new-crypto-tax-and-wallet-list-critics-called-a-kidnapping-risk",
+"https://cointelegraph.com/news/ethereum-foundation-keccak-256-counter-quantum-ai-threats?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+"https://cointelegraph.com/markets/us-inflation-rises-december-fed-meeting-clouding-crypto-outlook?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+"https://decrypt.co/383997/what-is-artex-ai-hacking-tool-us-spy-agency-breach",
+"https://decrypt.co/383991/elon-musk-spacex-fcc-approval-ai-data-centers-space",
+"https://www.coindesk.com/markets/2026/11/26/usd7-billion-of-bitcoin-options-expire-friday-and-the-biggest-bets-look-starkly-different-from-october"
 ],
 "recent_titles": [
 "Криптосообщество возмутил сериал Netflix о крахе FTX и роли Binance",
@@ -374,9 +382,10 @@
 "Глава Helius уверен, что криптовалюта станет основой всей цивилизации",
 "«На этот раз всё действительно кажется иначе»: криптоветераны готовятся к новым трудностям на фоне падения биткоина",
 "Nvidia выплатит 290 миллионов долларов для урегулирования затянувшегося судебного разбирательства по поводу доходов от майнинга криптовалют",
-"FCC разрешила SpaceX создать ИИ-дата-центры в космосе"
+"FCC разрешила SpaceX создать ИИ-дата-центры в космосе",
+"В пятницу истекает срок действия опционов на биткоин на сумму 7 миллиардов долларов, и самые крупные ставки сильно отличаются от октябрьских"
 ],
-"last_source": "ForkLog",
+"last_source": "CoinDesk",
 "posted": [
 {
 "title": "FCC разрешила SpaceX создать ИИ-дата-центры в космосе",
@@ -384,6 +393,13 @@
 "source": "ForkLog",
 "link": "https://forklog.com/fcc-razreshila-spacex-sozdat-ii-data-tsentry-v-kosmose",
 "ts": 1795672169
+},
+{
+"title": "В пятницу истекает срок действия опционов на биткоин на сумму 7 миллиардов долларов, и самые крупные ставки сильно отличаются от октябрьских",
+"summary": "",
+"source": "CoinDesk",
+"link": "https://www.coindesk.com/markets/2026/11/26/usd7-billion-of-bitcoin-options-expire-friday-and-the-biggest-bets-look-starkly-different-from-october",
+"ts": 1795681395
 }
 ]
 }
