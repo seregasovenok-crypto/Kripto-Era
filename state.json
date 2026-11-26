@@ -351,7 +351,14 @@
 "https://cointelegraph.com/markets/us-inflation-rises-december-fed-meeting-clouding-crypto-outlook?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
 "https://decrypt.co/383997/what-is-artex-ai-hacking-tool-us-spy-agency-breach",
 "https://decrypt.co/383991/elon-musk-spacex-fcc-approval-ai-data-centers-space",
-"https://www.coindesk.com/markets/2026/11/26/usd7-billion-of-bitcoin-options-expire-friday-and-the-biggest-bets-look-starkly-different-from-october"
+"https://www.coindesk.com/markets/2026/11/26/usd7-billion-of-bitcoin-options-expire-friday-and-the-biggest-bets-look-starkly-different-from-october",
+"https://cointelegraph.com/news/switzerland-clears-57-jurisdictions-crypto-tax-data-sharing?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+"https://cointelegraph.com/news/braiins-warns-bitcoin-mining-attacks-affecting-1000-sites?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+"https://cointelegraph.com/news/why-ecb-collateral-eligibility-could-boost-demand-tokenized-bonds?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+"https://decrypt.co/384001/what-happened-alice-huang-nvidia-spy-scandal",
+"https://decrypt.co/384002/1password-breach-vaults-phishing-emails",
+"https://decrypt.co/383999/another-bitcoin-mining-firm-hashrate-hijacking-attacks",
+"https://cointelegraph.com/markets/morgan-stanley-bitcoin-etf-trend-outflows-november?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
 ],
 "recent_titles": [
 "Криптосообщество возмутил сериал Netflix о крахе FTX и роли Binance",
@@ -383,9 +390,10 @@
 "«На этот раз всё действительно кажется иначе»: криптоветераны готовятся к новым трудностям на фоне падения биткоина",
 "Nvidia выплатит 290 миллионов долларов для урегулирования затянувшегося судебного разбирательства по поводу доходов от майнинга криптовалют",
 "FCC разрешила SpaceX создать ИИ-дата-центры в космосе",
-"В пятницу истекает срок действия опционов на биткоин на сумму 7 миллиардов долларов, и самые крупные ставки сильно отличаются от октябрьских"
+"В пятницу истекает срок действия опционов на биткоин на сумму 7 миллиардов долларов, и самые крупные ставки сильно отличаются от октябрьских",
+"Отток средств из биткоин-ETF в ноябре превысил 5 млрд долларов, а Morgan Stanley пошел против тренда"
 ],
-"last_source": "CoinDesk",
+"last_source": "Cointelegraph",
 "posted": [
 {
 "title": "FCC разрешила SpaceX создать ИИ-дата-центры в космосе",
@@ -400,6 +408,13 @@
 "source": "CoinDesk",
 "link": "https://www.coindesk.com/markets/2026/11/26/usd7-billion-of-bitcoin-options-expire-friday-and-the-biggest-bets-look-starkly-different-from-october",
 "ts": 1795681395
+},
+{
+"title": "Отток средств из биткоин-ETF в ноябре превысил 5 млрд долларов, а Morgan Stanley пошел против тренда",
+"summary": "По состоянию на среду фонд Morgan Stanley Bitcoin Trust привлек 114,1 млн $ чистого ежемесячного притока, в то время как отток из спотовых биткоин-ETF в США достиг 5,39 млрд $.",
+"source": "Cointelegraph",
+"link": "https://cointelegraph.com/markets/morgan-stanley-bitcoin-etf-trend-outflows-november?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+"ts": 1795687023
 }
 ]
 }
