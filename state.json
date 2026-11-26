@@ -358,7 +358,9 @@
 "https://decrypt.co/384001/what-happened-alice-huang-nvidia-spy-scandal",
 "https://decrypt.co/384002/1password-breach-vaults-phishing-emails",
 "https://decrypt.co/383999/another-bitcoin-mining-firm-hashrate-hijacking-attacks",
-"https://cointelegraph.com/markets/morgan-stanley-bitcoin-etf-trend-outflows-november?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+"https://cointelegraph.com/markets/morgan-stanley-bitcoin-etf-trend-outflows-november?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+"https://decrypt.co/384015/china-google-released-fast-new-ai-model-free-baidu-ernie",
+"https://forklog.com/news/galaxy-peresmotrela-prognoz-po-bitkoinu-i-nazvala-klyuchevym-uroven-58-525"
 ],
 "recent_titles": [
 "Криптосообщество возмутил сериал Netflix о крахе FTX и роли Binance",
@@ -391,9 +393,10 @@
 "Nvidia выплатит 290 миллионов долларов для урегулирования затянувшегося судебного разбирательства по поводу доходов от майнинга криптовалют",
 "FCC разрешила SpaceX создать ИИ-дата-центры в космосе",
 "В пятницу истекает срок действия опционов на биткоин на сумму 7 миллиардов долларов, и самые крупные ставки сильно отличаются от октябрьских",
-"Отток средств из биткоин-ETF в ноябре превысил 5 млрд долларов, а Morgan Stanley пошел против тренда"
+"Отток средств из биткоин-ETF в ноябре превысил 5 млрд долларов, а Morgan Stanley пошел против тренда",
+"Galaxy пересмотрела прогноз по биткоину и назвала ключевым уровень $58 525"
 ],
-"last_source": "Cointelegraph",
+"last_source": "ForkLog",
 "posted": [
 {
 "title": "FCC разрешила SpaceX создать ИИ-дата-центры в космосе",
@@ -415,6 +418,13 @@
 "source": "Cointelegraph",
 "link": "https://cointelegraph.com/markets/morgan-stanley-bitcoin-etf-trend-outflows-november?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
 "ts": 1795687023
+},
+{
+"title": "Galaxy пересмотрела прогноз по биткоину и назвала ключевым уровень $58 525",
+"summary": "Глава исследовательского отдела Galaxy Алекс Торн отозвал октябрьский вывод о том, что медвежья фаза первой криптовалюты завершилась в июне. По его оценке, спад «весьма вероятно» не закончился, а дневное закрытие ниже $58 525 эксперт предложил считать сигналом к дальнейшему снижению.",
+"source": "ForkLog",
+"link": "https://forklog.com/news/galaxy-peresmotrela-prognoz-po-bitkoinu-i-nazvala-klyuchevym-uroven-58-525",
+"ts": 1795693753
 }
 ]
 }
