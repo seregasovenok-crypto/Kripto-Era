@@ -363,7 +363,12 @@
 "https://forklog.com/news/galaxy-peresmotrela-prognoz-po-bitkoinu-i-nazvala-klyuchevym-uroven-58-525",
 "https://cointelegraph.com/news/ai-labs-likely-sitting-on-cryptography-bombshells-computer-scientist-says?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
 "https://www.coindesk.com/business/2026/11/26/spain-gives-anti-laundering-unit-power-to-freeze-crypto-accounts-without-a-judge",
-"https://forklog.com/neuralink-poluchila-razreshenie-fda-na-klyuchevye-ispytaniya-mozgovogo-implanta"
+"https://forklog.com/neuralink-poluchila-razreshenie-fda-na-klyuchevye-ispytaniya-mozgovogo-implanta",
+"https://www.coindesk.com/markets/2026/11/26/ripple-is-worth-usd90-a-share-to-one-fund-and-usd300-to-another-sec-filings-show",
+"https://www.coindesk.com/policy/2026/11/26/strategic-bitcoin-reserve-bill-to-lock-up-u-s-government-held-bitcoin-for-20-years-goes-to-full-house",
+"https://cointelegraph.com/news/sky-emergency-vote-25m-transfer-stusds-liquidity-stress?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+"https://cointelegraph.com/news/1password-hacker-stole-customer-names-and-emails-but-vaults-safe?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+"https://cointelegraph.com/markets/crypto-hawkish-fed-risks-december-meltdown?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
 ],
 "recent_titles": [
 "Криптосообщество возмутил сериал Netflix о крахе FTX и роли Binance",
@@ -399,9 +404,10 @@
 "Отток средств из биткоин-ETF в ноябре превысил 5 млрд долларов, а Morgan Stanley пошел против тренда",
 "Galaxy пересмотрела прогноз по биткоину и назвала ключевым уровень $58 525",
 "Испания наделила подразделение по борьбе с отмыванием денег полномочиями замораживать криптосчета без решения суда",
-"Neuralink получила разрешение FDA на ключевые испытания мозгового импланта"
+"Neuralink получила разрешение FDA на ключевые испытания мозгового импланта",
+"Криптовалюты начеку: «ястребиная» позиция ФРС грозит «обвалом» в декабре"
 ],
-"last_source": "ForkLog",
+"last_source": "Cointelegraph",
 "posted": [
 {
 "title": "FCC разрешила SpaceX создать ИИ-дата-центры в космосе",
@@ -444,6 +450,13 @@
 "source": "ForkLog",
 "link": "https://forklog.com/neuralink-poluchila-razreshenie-fda-na-klyuchevye-ispytaniya-mozgovogo-implanta",
 "ts": 1795708238
+},
+{
+"title": "Криптовалюты начеку: «ястребиная» позиция ФРС грозит «обвалом» в декабре",
+"summary": "Экономист Робин Брукс предупредил о серьезных последствиях для акций, если Федеральная резервная система не даст сигналов о смягчении политики до начала периода информационной тишины перед заседанием Федерального комитета по открытым рынкам (FOMC).",
+"source": "Cointelegraph",
+"link": "https://cointelegraph.com/markets/crypto-hawkish-fed-risks-december-meltdown?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+"ts": 1795715204
 }
 ]
 }
