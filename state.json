@@ -362,7 +362,8 @@
 "https://decrypt.co/384015/china-google-released-fast-new-ai-model-free-baidu-ernie",
 "https://forklog.com/news/galaxy-peresmotrela-prognoz-po-bitkoinu-i-nazvala-klyuchevym-uroven-58-525",
 "https://cointelegraph.com/news/ai-labs-likely-sitting-on-cryptography-bombshells-computer-scientist-says?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-"https://www.coindesk.com/business/2026/11/26/spain-gives-anti-laundering-unit-power-to-freeze-crypto-accounts-without-a-judge"
+"https://www.coindesk.com/business/2026/11/26/spain-gives-anti-laundering-unit-power-to-freeze-crypto-accounts-without-a-judge",
+"https://forklog.com/neuralink-poluchila-razreshenie-fda-na-klyuchevye-ispytaniya-mozgovogo-implanta"
 ],
 "recent_titles": [
 "Криптосообщество возмутил сериал Netflix о крахе FTX и роли Binance",
@@ -397,9 +398,10 @@
 "В пятницу истекает срок действия опционов на биткоин на сумму 7 миллиардов долларов, и самые крупные ставки сильно отличаются от октябрьских",
 "Отток средств из биткоин-ETF в ноябре превысил 5 млрд долларов, а Morgan Stanley пошел против тренда",
 "Galaxy пересмотрела прогноз по биткоину и назвала ключевым уровень $58 525",
-"Испания наделила подразделение по борьбе с отмыванием денег полномочиями замораживать криптосчета без решения суда"
+"Испания наделила подразделение по борьбе с отмыванием денег полномочиями замораживать криптосчета без решения суда",
+"Neuralink получила разрешение FDA на ключевые испытания мозгового импланта"
 ],
-"last_source": "CoinDesk",
+"last_source": "ForkLog",
 "posted": [
 {
 "title": "FCC разрешила SpaceX создать ИИ-дата-центры в космосе",
@@ -435,6 +437,13 @@
 "source": "CoinDesk",
 "link": "https://www.coindesk.com/business/2026/11/26/spain-gives-anti-laundering-unit-power-to-freeze-crypto-accounts-without-a-judge",
 "ts": 1795702161
+},
+{
+"title": "Neuralink получила разрешение FDA на ключевые испытания мозгового импланта",
+"summary": "Компания Neuralink получила одобрение Управления по санитарному надзору за качеством пищевых продуктов и медикаментов США (FDA) на запуск ключевого клинического исследования LINK. Оно станет первым в стране испытанием такого этапа для имплантируемого интерфейса «мозг — компьютер». Исследование…",
+"source": "ForkLog",
+"link": "https://forklog.com/neuralink-poluchila-razreshenie-fda-na-klyuchevye-ispytaniya-mozgovogo-implanta",
+"ts": 1795708238
 }
 ]
 }
