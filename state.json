@@ -360,7 +360,9 @@
 "https://decrypt.co/383999/another-bitcoin-mining-firm-hashrate-hijacking-attacks",
 "https://cointelegraph.com/markets/morgan-stanley-bitcoin-etf-trend-outflows-november?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
 "https://decrypt.co/384015/china-google-released-fast-new-ai-model-free-baidu-ernie",
-"https://forklog.com/news/galaxy-peresmotrela-prognoz-po-bitkoinu-i-nazvala-klyuchevym-uroven-58-525"
+"https://forklog.com/news/galaxy-peresmotrela-prognoz-po-bitkoinu-i-nazvala-klyuchevym-uroven-58-525",
+"https://cointelegraph.com/news/ai-labs-likely-sitting-on-cryptography-bombshells-computer-scientist-says?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+"https://www.coindesk.com/business/2026/11/26/spain-gives-anti-laundering-unit-power-to-freeze-crypto-accounts-without-a-judge"
 ],
 "recent_titles": [
 "Криптосообщество возмутил сериал Netflix о крахе FTX и роли Binance",
@@ -394,9 +396,10 @@
 "FCC разрешила SpaceX создать ИИ-дата-центры в космосе",
 "В пятницу истекает срок действия опционов на биткоин на сумму 7 миллиардов долларов, и самые крупные ставки сильно отличаются от октябрьских",
 "Отток средств из биткоин-ETF в ноябре превысил 5 млрд долларов, а Morgan Stanley пошел против тренда",
-"Galaxy пересмотрела прогноз по биткоину и назвала ключевым уровень $58 525"
+"Galaxy пересмотрела прогноз по биткоину и назвала ключевым уровень $58 525",
+"Испания наделила подразделение по борьбе с отмыванием денег полномочиями замораживать криптосчета без решения суда"
 ],
-"last_source": "ForkLog",
+"last_source": "CoinDesk",
 "posted": [
 {
 "title": "FCC разрешила SpaceX создать ИИ-дата-центры в космосе",
@@ -425,6 +428,13 @@
 "source": "ForkLog",
 "link": "https://forklog.com/news/galaxy-peresmotrela-prognoz-po-bitkoinu-i-nazvala-klyuchevym-uroven-58-525",
 "ts": 1795693753
+},
+{
+"title": "Испания наделила подразделение по борьбе с отмыванием денег полномочиями замораживать криптосчета без решения суда",
+"summary": "",
+"source": "CoinDesk",
+"link": "https://www.coindesk.com/business/2026/11/26/spain-gives-anti-laundering-unit-power-to-freeze-crypto-accounts-without-a-judge",
+"ts": 1795702161
 }
 ]
 }
