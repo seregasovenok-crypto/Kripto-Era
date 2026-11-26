@@ -9,6 +9,9 @@ on:
       news:
         description: "Сколько новостей в ролике"
         default: "3"
+      skip:
+        description: "Пропустить столько самых свежих новостей (для второго ролика)"
+        default: "0"
   pull_request:
     paths: ["video.py", "requirements-video.txt", ".github/workflows/video.yml"]
 
@@ -33,6 +36,7 @@ jobs:
       - run: python video.py
         env:
           VIDEO_NEWS: ${{ github.event.inputs.news || '3' }}
+          VIDEO_SKIP: ${{ github.event.inputs.skip || '0' }}
           # в PR только собираем тестовый ролик, ничего не отправляем
           VIDEO_SEND: ${{ github.event_name == 'pull_request' && '0' || '1' }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}

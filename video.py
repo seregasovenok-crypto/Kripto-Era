@@ -38,6 +38,7 @@ MSK = timezone(timedelta(hours=3))
 STATE_FILE = "state.json"
 OUT_DIR = os.environ.get("VIDEO_OUT", "out")
 N_NEWS = int(os.environ.get("VIDEO_NEWS", "3"))
+SKIP = int(os.environ.get("VIDEO_SKIP", "0"))  # пропустить N самых свежих (для второго ролика)
 VOICE = os.environ.get("VIDEO_VOICE", "ru-RU-DmitryNeural")
 VOICE_RATE = os.environ.get("VIDEO_VOICE_RATE", "+8%")
 NEWS_MAX_AGE_HOURS = 26
@@ -128,15 +129,17 @@ def gather_news():
     posted = [p for p in load_state().get("posted", [])
               if now - p.get("ts", 0) < NEWS_MAX_AGE_HOURS * 3600]
     posted.sort(key=lambda p: -p.get("ts", 0))
-    news = posted[:N_NEWS]
-    if len(news) < N_NEWS:
+    need = N_NEWS + SKIP
+    news = posted[:need]
+    if len(news) < need:
         titles = {n["title"] for n in news}
-        for item in fetch_rss(N_NEWS):
-            if len(news) >= N_NEWS:
+        for item in fetch_rss(need):
+            if len(news) >= need:
                 break
             if item["title"] and item["title"] not in titles:
                 news.append(item)
                 titles.add(item["title"])
+    news = news[SKIP:]
     return news
 
 
