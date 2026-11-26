@@ -368,7 +368,14 @@
 "https://www.coindesk.com/policy/2026/11/26/strategic-bitcoin-reserve-bill-to-lock-up-u-s-government-held-bitcoin-for-20-years-goes-to-full-house",
 "https://cointelegraph.com/news/sky-emergency-vote-25m-transfer-stusds-liquidity-stress?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
 "https://cointelegraph.com/news/1password-hacker-stole-customer-names-and-emails-but-vaults-safe?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-"https://cointelegraph.com/markets/crypto-hawkish-fed-risks-december-meltdown?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+"https://cointelegraph.com/markets/crypto-hawkish-fed-risks-december-meltdown?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+"https://bits.media/aleks-torn-priznal-oshibkoy-svoy-prognoz-dlya-bitkoina/",
+"https://bits.media/tysyachi-maynerov-postradali-ot-krazhi-kheshreyta/",
+"https://bits.media/genprokuratura-yuty-snyala-ugolovnye-obvineniya-s-platformy-prognozov-kalshi/",
+"https://www.coindesk.com/tech/2026/11/26/zcash-developers-want-users-to-move-usd300-million-out-of-an-older-privacy-system",
+"https://www.coindesk.com/markets/2026/11/26/hackers-hijacked-1-000-plus-bitcoin-mines-in-one-second-by-faking-internet-routes",
+"https://cointelegraph.com/news/uk-fca-defi-regulation-binance-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+"https://decrypt.co/384066/before-the-sell-off-ai-stocks-showed-dot-com-level-bubble-signals-study"
 ],
 "recent_titles": [
 "Криптосообщество возмутил сериал Netflix о крахе FTX и роли Binance",
@@ -405,9 +412,10 @@
 "Galaxy пересмотрела прогноз по биткоину и назвала ключевым уровень $58 525",
 "Испания наделила подразделение по борьбе с отмыванием денег полномочиями замораживать криптосчета без решения суда",
 "Neuralink получила разрешение FDA на ключевые испытания мозгового импланта",
-"Криптовалюты начеку: «ястребиная» позиция ФРС грозит «обвалом» в декабре"
+"Криптовалюты начеку: «ястребиная» позиция ФРС грозит «обвалом» в декабре",
+"Исследование: до распродажи акции компаний, связанных с ИИ, демонстрировали признаки пузыря, сравнимые с пузырем доткомов"
 ],
-"last_source": "Cointelegraph",
+"last_source": "Decrypt",
 "posted": [
 {
 "title": "FCC разрешила SpaceX создать ИИ-дата-центры в космосе",
@@ -457,6 +465,13 @@
 "source": "Cointelegraph",
 "link": "https://cointelegraph.com/markets/crypto-hawkish-fed-risks-december-meltdown?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
 "ts": 1795715204
+},
+{
+"title": "Исследование: до распродажи акции компаний, связанных с ИИ, демонстрировали признаки пузыря, сравнимые с пузырем доткомов",
+"summary": "Исследование, охватывающее 170 лет финансовой журналистики, показывает, что акции компаний, связанных с ИИ, достигли уровней, сравнимых с пузырем доткомов, однако оценки разнятся.",
+"source": "Decrypt",
+"link": "https://decrypt.co/384066/before-the-sell-off-ai-stocks-showed-dot-com-level-bubble-signals-study",
+"ts": 1795722832
 }
 ]
 }
