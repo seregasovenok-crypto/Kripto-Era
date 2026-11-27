@@ -452,7 +452,13 @@
 "https://www.coindesk.com/tech/2026/11/27/ethereum-s-much-awaited-glamsterdam-upgrade-cleared-for-december-test-here-s-what-to-know",
 "https://cointelegraph.com/news/japans-crypto-security-group-taps-seal-to-speed-up-hack-response?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
 "https://cointelegraph.com/news/ethereum-devs-set-glamsterdams-hoodi-rollout-for-mid-december-after-delays?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-"https://decrypt.co/384174/us-air-force-hack-cloud-system-air-defense-munitions-data"
+"https://decrypt.co/384174/us-air-force-hack-cloud-system-air-defense-munitions-data",
+"https://bits.media/uyazvimost-bitcoin-core-pozvolila-raskryt-ip-adres-vladeltsa-koshelka-za-0-34/",
+"https://bits.media/kucoin-nazvala-datu-delistinga-monero/",
+"https://bits.media/jpmorgan-uvidel-v-rekordnom-padenii-otsenki-aktsiy-strategy-kapitulyatsiyu-bitkoin-investorov/",
+"https://www.coindesk.com/markets/2026/11/27/monero-suffers-biggest-single-day-slide-in-over-5-months-here-s-why",
+"https://cointelegraph.com/news/new-york-ag-137b-court-judgment-novatech?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+"https://cointelegraph.com/markets/bitcoin-whales-pile-btc-despite-shrinking-profit-cushion?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
 ],
 "recent_titles": [
 "Криптосообщество возмутил сериал Netflix о крахе FTX и роли Binance",
@@ -497,9 +503,10 @@
 "Бразильская фондовая биржа B3 выпустит стейблкоин совместно с банками",
 "Что входит в дорожную карту Ethereum: Glamsterdam, Hegotá и многое другое",
 "Сложность майнинга биткоина выросла на 7,61%",
-"Хакеры взломали облачную систему ВВС США, в которой хранятся данные о противовоздушной обороне и боеприпасах"
+"Хакеры взломали облачную систему ВВС США, в которой хранятся данные о противовоздушной обороне и боеприпасах",
+"Криптокиты накапливают BTC, несмотря на сокращение подушки прибыли"
 ],
-"last_source": "Decrypt",
+"last_source": "Cointelegraph",
 "posted": [
 {
 "title": "FCC разрешила SpaceX создать ИИ-дата-центры в космосе",
@@ -605,6 +612,13 @@
 "source": "Decrypt",
 "link": "https://decrypt.co/384174/us-air-force-hack-cloud-system-air-defense-munitions-data",
 "ts": 1795801529
+},
+{
+"title": "Криптокиты накапливают BTC, несмотря на сокращение подушки прибыли",
+"summary": "Данные CryptoQuant показывают, что киты биткоина нарушают исторические закономерности продаж в четвертом квартале, несмотря на спад на рынке.",
+"source": "Cointelegraph",
+"link": "https://cointelegraph.com/markets/bitcoin-whales-pile-btc-despite-shrinking-profit-cushion?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+"ts": 1795808939
 }
 ]
 }
