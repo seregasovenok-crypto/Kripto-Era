@@ -434,7 +434,12 @@
 "https://cointelegraph.com/news/japan-tighter-oversight-defi-self-custodial-wallets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
 "https://cointelegraph.com/news/spain-moves-grant-financial-watchdog-power-freeze-crypto-accounts?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
 "https://decrypt.co/384079/bitcoin-holds-above-60k-as-death-cross-clouds-thanksgiving-recovery",
-"https://cointelegraph.com/news/esma-overhaul-eu-mica-crypto-register-2027?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+"https://cointelegraph.com/news/esma-overhaul-eu-mica-crypto-register-2027?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+"https://cointelegraph.com/news/bnb-chain-details-new-layer-1-trading-private-finance-ai?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+"https://cointelegraph.com/news/binance-completes-withdrawal-recovery-four-weeks-after-63b-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+"https://cointelegraph.com/news/uk-wrong-defi-regulation-coinbase?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+"https://decrypt.co/resources/what-is-self-custody-how-to-hold-your-own-crypto-keys",
+"https://www.coindesk.com/markets/2026/11/27/bitcoin-tops-usd61-000-as-nasdaq-futures-extend-wednesday-s-rebound"
 ],
 "recent_titles": [
 "Криптосообщество возмутил сериал Netflix о крахе FTX и роли Binance",
@@ -474,9 +479,10 @@
 "Криптовалюты начеку: «ястребиная» позиция ФРС грозит «обвалом» в декабре",
 "Исследование: до распродажи акции компаний, связанных с ИИ, демонстрировали признаки пузыря, сравнимые с пузырем доткомов",
 "Китай, Япония, Южная Корея и АСЕАН создадут рабочую группу по трансграничным платежам в цифровых активах",
-"ESMA планирует пересмотреть реестр криптоактивов ЕС в рамках MiCA в 2027 году"
+"ESMA планирует пересмотреть реестр криптоактивов ЕС в рамках MiCA в 2027 году",
+"Биткоин превысил отметку в 61 000 $, поскольку фьючерсы на индекс Nasdaq продолжили рост, начавшийся в среду"
 ],
-"last_source": "Cointelegraph",
+"last_source": "CoinDesk",
 "posted": [
 {
 "title": "FCC разрешила SpaceX создать ИИ-дата-центры в космосе",
@@ -547,6 +553,13 @@
 "source": "Cointelegraph",
 "link": "https://cointelegraph.com/news/esma-overhaul-eu-mica-crypto-register-2027?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
 "ts": 1795767669
+},
+{
+"title": "Биткоин превысил отметку в 61 000 $, поскольку фьючерсы на индекс Nasdaq продолжили рост, начавшийся в среду",
+"summary": "",
+"source": "CoinDesk",
+"link": "https://www.coindesk.com/markets/2026/11/27/bitcoin-tops-usd61-000-as-nasdaq-futures-extend-wednesday-s-rebound",
+"ts": 1795773286
 }
 ]
 }
