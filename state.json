@@ -442,7 +442,10 @@
 "https://www.coindesk.com/markets/2026/11/27/bitcoin-tops-usd61-000-as-nasdaq-futures-extend-wednesday-s-rebound",
 "https://cointelegraph.com/magazine/very-racist-netflix-sbf-series-bitmarts-319m-shortfall-asia-express?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
 "https://decrypt.co/384061/vibecoded-gta-6-pc-ports-are-now-rendering-in-game-graphics-despite-take-two-crackdown",
-"https://forklog.com/brazilskaya-fondovaya-birzha-b3-vypustit-stejblkoin-sovmestno-s-bankami"
+"https://forklog.com/brazilskaya-fondovaya-birzha-b3-vypustit-stejblkoin-sovmestno-s-bankami",
+"https://cointelegraph.com/news/ai-driving-flood-of-crypto-bug-reports-now-helping-sort-them?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+"https://cointelegraph.com/news/privacy-coins-kucoin-drop-monero-grayscale-zcash?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+"https://decrypt.co/resources/whats-on-ethereum-roadmap-glamsterdam-hegota-beyond"
 ],
 "recent_titles": [
 "Криптосообщество возмутил сериал Netflix о крахе FTX и роли Binance",
@@ -484,9 +487,10 @@
 "Китай, Япония, Южная Корея и АСЕАН создадут рабочую группу по трансграничным платежам в цифровых активах",
 "ESMA планирует пересмотреть реестр криптоактивов ЕС в рамках MiCA в 2027 году",
 "Биткоин превысил отметку в 61 000 $, поскольку фьючерсы на индекс Nasdaq продолжили рост, начавшийся в среду",
-"Бразильская фондовая биржа B3 выпустит стейблкоин совместно с банками"
+"Бразильская фондовая биржа B3 выпустит стейблкоин совместно с банками",
+"Что входит в дорожную карту Ethereum: Glamsterdam, Hegotá и многое другое"
 ],
-"last_source": "ForkLog",
+"last_source": "Decrypt",
 "posted": [
 {
 "title": "FCC разрешила SpaceX создать ИИ-дата-центры в космосе",
@@ -571,6 +575,13 @@
 "source": "ForkLog",
 "link": "https://forklog.com/brazilskaya-fondovaya-birzha-b3-vypustit-stejblkoin-sovmestno-s-bankami",
 "ts": 1795779892
+},
+{
+"title": "Что входит в дорожную карту Ethereum: Glamsterdam, Hegotá и многое другое",
+"summary": "С 2022 года Ethereum регулярно выпускает обновления. Давайте посмотрим, как эти изменения соотносятся друг с другом, и что еще предстоит сделать.",
+"source": "Decrypt",
+"link": "https://decrypt.co/resources/whats-on-ethereum-roadmap-glamsterdam-hegota-beyond",
+"ts": 1795788747
 }
 ]
 }
