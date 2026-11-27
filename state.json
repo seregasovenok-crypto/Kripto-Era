@@ -446,7 +446,13 @@
 "https://cointelegraph.com/news/ai-driving-flood-of-crypto-bug-reports-now-helping-sort-them?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
 "https://cointelegraph.com/news/privacy-coins-kucoin-drop-monero-grayscale-zcash?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
 "https://decrypt.co/resources/whats-on-ethereum-roadmap-glamsterdam-hegota-beyond",
-"https://forklog.com/slozhnost-majninga-bitkoina-vyrosla-na-7-61"
+"https://forklog.com/slozhnost-majninga-bitkoina-vyrosla-na-7-61",
+"https://www.coindesk.com/markets/2026/11/27/ripple-s-lending-plan-moves-closer-to-tapping-xrp-ledger-s-usd950-million-in-stablecoins",
+"https://www.coindesk.com/markets/2026/11/27/binance-says-its-withdrawal-suspension-is-over-four-weeks-after-a-usd6-3-billion-hack",
+"https://www.coindesk.com/tech/2026/11/27/ethereum-s-much-awaited-glamsterdam-upgrade-cleared-for-december-test-here-s-what-to-know",
+"https://cointelegraph.com/news/japans-crypto-security-group-taps-seal-to-speed-up-hack-response?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+"https://cointelegraph.com/news/ethereum-devs-set-glamsterdams-hoodi-rollout-for-mid-december-after-delays?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+"https://decrypt.co/384174/us-air-force-hack-cloud-system-air-defense-munitions-data"
 ],
 "recent_titles": [
 "Криптосообщество возмутил сериал Netflix о крахе FTX и роли Binance",
@@ -490,9 +496,10 @@
 "Биткоин превысил отметку в 61 000 $, поскольку фьючерсы на индекс Nasdaq продолжили рост, начавшийся в среду",
 "Бразильская фондовая биржа B3 выпустит стейблкоин совместно с банками",
 "Что входит в дорожную карту Ethereum: Glamsterdam, Hegotá и многое другое",
-"Сложность майнинга биткоина выросла на 7,61%"
+"Сложность майнинга биткоина выросла на 7,61%",
+"Хакеры взломали облачную систему ВВС США, в которой хранятся данные о противовоздушной обороне и боеприпасах"
 ],
-"last_source": "ForkLog",
+"last_source": "Decrypt",
 "posted": [
 {
 "title": "FCC разрешила SpaceX создать ИИ-дата-центры в космосе",
@@ -591,6 +598,13 @@
 "source": "ForkLog",
 "link": "https://forklog.com/slozhnost-majninga-bitkoina-vyrosla-na-7-61",
 "ts": 1795794580
+},
+{
+"title": "Хакеры взломали облачную систему ВВС США, в которой хранятся данные о противовоздушной обороне и боеприпасах",
+"summary": "В результате взлома системы Cloud One, обнаруженного во время обновления системы, Киберкомандование США провело оценку ущерба, а работа платформы, на которой обрабатываются данные радаров ПВО, информация об отслеживании боеприпасов и данные о личном составе, была нарушена.",
+"source": "Decrypt",
+"link": "https://decrypt.co/384174/us-air-force-hack-cloud-system-air-defense-munitions-data",
+"ts": 1795801529
 }
 ]
 }
