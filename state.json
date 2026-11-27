@@ -439,7 +439,10 @@
 "https://cointelegraph.com/news/binance-completes-withdrawal-recovery-four-weeks-after-63b-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
 "https://cointelegraph.com/news/uk-wrong-defi-regulation-coinbase?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
 "https://decrypt.co/resources/what-is-self-custody-how-to-hold-your-own-crypto-keys",
-"https://www.coindesk.com/markets/2026/11/27/bitcoin-tops-usd61-000-as-nasdaq-futures-extend-wednesday-s-rebound"
+"https://www.coindesk.com/markets/2026/11/27/bitcoin-tops-usd61-000-as-nasdaq-futures-extend-wednesday-s-rebound",
+"https://cointelegraph.com/magazine/very-racist-netflix-sbf-series-bitmarts-319m-shortfall-asia-express?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+"https://decrypt.co/384061/vibecoded-gta-6-pc-ports-are-now-rendering-in-game-graphics-despite-take-two-crackdown",
+"https://forklog.com/brazilskaya-fondovaya-birzha-b3-vypustit-stejblkoin-sovmestno-s-bankami"
 ],
 "recent_titles": [
 "Криптосообщество возмутил сериал Netflix о крахе FTX и роли Binance",
@@ -480,9 +483,10 @@
 "Исследование: до распродажи акции компаний, связанных с ИИ, демонстрировали признаки пузыря, сравнимые с пузырем доткомов",
 "Китай, Япония, Южная Корея и АСЕАН создадут рабочую группу по трансграничным платежам в цифровых активах",
 "ESMA планирует пересмотреть реестр криптоактивов ЕС в рамках MiCA в 2027 году",
-"Биткоин превысил отметку в 61 000 $, поскольку фьючерсы на индекс Nasdaq продолжили рост, начавшийся в среду"
+"Биткоин превысил отметку в 61 000 $, поскольку фьючерсы на индекс Nasdaq продолжили рост, начавшийся в среду",
+"Бразильская фондовая биржа B3 выпустит стейблкоин совместно с банками"
 ],
-"last_source": "CoinDesk",
+"last_source": "ForkLog",
 "posted": [
 {
 "title": "FCC разрешила SpaceX создать ИИ-дата-центры в космосе",
@@ -560,6 +564,13 @@
 "source": "CoinDesk",
 "link": "https://www.coindesk.com/markets/2026/11/27/bitcoin-tops-usd61-000-as-nasdaq-futures-extend-wednesday-s-rebound",
 "ts": 1795773286
+},
+{
+"title": "Бразильская фондовая биржа B3 выпустит стейблкоин совместно с банками",
+"summary": "Фондовая биржа B3 и шесть финансовых организаций, включая Bradesco, BTG Pactual, Itaú Unibanco и Santander, объединились для разработки привязанного к бразильскому реалу стейблкоина Open BRL. Его планируют использовать для расчетов по операциям с цифровыми активами, включая токенизированные акции…",
+"source": "ForkLog",
+"link": "https://forklog.com/brazilskaya-fondovaya-birzha-b3-vypustit-stejblkoin-sovmestno-s-bankami",
+"ts": 1795779892
 }
 ]
 }
