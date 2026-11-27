@@ -445,7 +445,8 @@
 "https://forklog.com/brazilskaya-fondovaya-birzha-b3-vypustit-stejblkoin-sovmestno-s-bankami",
 "https://cointelegraph.com/news/ai-driving-flood-of-crypto-bug-reports-now-helping-sort-them?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
 "https://cointelegraph.com/news/privacy-coins-kucoin-drop-monero-grayscale-zcash?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-"https://decrypt.co/resources/whats-on-ethereum-roadmap-glamsterdam-hegota-beyond"
+"https://decrypt.co/resources/whats-on-ethereum-roadmap-glamsterdam-hegota-beyond",
+"https://forklog.com/slozhnost-majninga-bitkoina-vyrosla-na-7-61"
 ],
 "recent_titles": [
 "Криптосообщество возмутил сериал Netflix о крахе FTX и роли Binance",
@@ -488,9 +489,10 @@
 "ESMA планирует пересмотреть реестр криптоактивов ЕС в рамках MiCA в 2027 году",
 "Биткоин превысил отметку в 61 000 $, поскольку фьючерсы на индекс Nasdaq продолжили рост, начавшийся в среду",
 "Бразильская фондовая биржа B3 выпустит стейблкоин совместно с банками",
-"Что входит в дорожную карту Ethereum: Glamsterdam, Hegotá и многое другое"
+"Что входит в дорожную карту Ethereum: Glamsterdam, Hegotá и многое другое",
+"Сложность майнинга биткоина выросла на 7,61%"
 ],
-"last_source": "Decrypt",
+"last_source": "ForkLog",
 "posted": [
 {
 "title": "FCC разрешила SpaceX создать ИИ-дата-центры в космосе",
@@ -582,6 +584,13 @@
 "source": "Decrypt",
 "link": "https://decrypt.co/resources/whats-on-ethereum-roadmap-glamsterdam-hegota-beyond",
 "ts": 1795788747
+},
+{
+"title": "Сложность майнинга биткоина выросла на 7,61%",
+"summary": "В результате очередного перерасчета на высоте блока 977 760 сложность добычи первой криптовалюты увеличилась на 7,61%, до 145,09 Т. Это второе по величине повышение с начала 2026 года, которое частично нивелировало снижение на 9,13%, зафиксированное 14 ноября. Показатель остается примерно на 7%…",
+"source": "ForkLog",
+"link": "https://forklog.com/slozhnost-majninga-bitkoina-vyrosla-na-7-61",
+"ts": 1795794580
 }
 ]
 }
