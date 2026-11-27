@@ -191,7 +191,7 @@ def build_script(news, date):
     word = {1: "главная новость", 2: "главные новости", 3: "главные новости", 4: "главные новости"}.get(n, "главных новостей")
     segments = [{
         "kind": "intro",
-        "voice": f"{n} {word} крипты за {day}. Смотри до конца!",
+        "voice": f"Новости дня. {n} {word} крипты. Смотри до конца!",
         "title": f"{n} {word.upper()} КРИПТЫ",
         "theme": ("intro", (0, 200, 170), "₿"),
         "trend": 0,
@@ -222,8 +222,7 @@ def build_script(news, date):
 
 
 def build_caption(news, date):
-    day = f"{date.day} {MONTHS[date.month - 1]}"
-    lines = [f"Главное в крипте за {day} 🔥", ""]
+    lines = ["Новости дня 🔥", ""]
     for i, item in enumerate(news, 1):
         lines.append(f"{i}. {item['title'].strip().rstrip('.')}")
     tags = ["#крипта", "#криптовалюта", "#новости", "#биткоин", "#bitcoin", "#инвестиции", "#криптоэра"]
@@ -473,7 +472,7 @@ def foreground(seg):
             d.text((W // 2, 270 + i * 108), line, font=f_big, fill="white", anchor="ma",
                    stroke_width=4, stroke_fill=(0, 0, 0))
         f_date = font(FONT_BOLD, 50)
-        label = f"за {seg['date']}"
+        label = "НОВОСТИ ДНЯ"
         tw = d.textlength(label, font=f_date)
         pill(d, W // 2 - (tw + 52) / 2, 270 + len(lines) * 108 + 20, label, f_date,
              color + (255,), color=(10, 12, 24))
