@@ -428,7 +428,13 @@
 "https://decrypt.co/384030/galaxy-research-withdraws-call-that-bitcoins-bear-market-is-over",
 "https://decrypt.co/384027/uk-regulator-cites-binance-hack-as-it-plans-tougher-defi-rules-than-us-and-eu-report",
 "https://decrypt.co/384025/new-york-wins-1-37b-judgment-against-novatech-founders-who-fled-the-us",
-"https://forklog.com/news/kitaj-yaponiya-yuzhnaya-koreya-i-asean-sozdadut-rabochuyu-gruppu-po-transgranichnym-platezham-v-tsifrovyh-aktivah"
+"https://forklog.com/news/kitaj-yaponiya-yuzhnaya-koreya-i-asean-sozdadut-rabochuyu-gruppu-po-transgranichnym-platezham-v-tsifrovyh-aktivah",
+"https://forklog.com/ispaniya-razreshila-finrazvedke-zamorazhivat-kriptoscheta-bez-resheniya-suda",
+"https://ru.beincrypto.com/maxine-waters-trump-meme-coin-investigation/",
+"https://cointelegraph.com/news/japan-tighter-oversight-defi-self-custodial-wallets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+"https://cointelegraph.com/news/spain-moves-grant-financial-watchdog-power-freeze-crypto-accounts?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+"https://decrypt.co/384079/bitcoin-holds-above-60k-as-death-cross-clouds-thanksgiving-recovery",
+"https://cointelegraph.com/news/esma-overhaul-eu-mica-crypto-register-2027?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
 ],
 "recent_titles": [
 "Криптосообщество возмутил сериал Netflix о крахе FTX и роли Binance",
@@ -467,9 +473,10 @@
 "Neuralink получила разрешение FDA на ключевые испытания мозгового импланта",
 "Криптовалюты начеку: «ястребиная» позиция ФРС грозит «обвалом» в декабре",
 "Исследование: до распродажи акции компаний, связанных с ИИ, демонстрировали признаки пузыря, сравнимые с пузырем доткомов",
-"Китай, Япония, Южная Корея и АСЕАН создадут рабочую группу по трансграничным платежам в цифровых активах"
+"Китай, Япония, Южная Корея и АСЕАН создадут рабочую группу по трансграничным платежам в цифровых активах",
+"ESMA планирует пересмотреть реестр криптоактивов ЕС в рамках MiCA в 2027 году"
 ],
-"last_source": "ForkLog",
+"last_source": "Cointelegraph",
 "posted": [
 {
 "title": "FCC разрешила SpaceX создать ИИ-дата-центры в космосе",
@@ -533,6 +540,13 @@
 "source": "ForkLog",
 "link": "https://forklog.com/news/kitaj-yaponiya-yuzhnaya-koreya-i-asean-sozdadut-rabochuyu-gruppu-po-transgranichnym-platezham-v-tsifrovyh-aktivah",
 "ts": 1795758771
+},
+{
+"title": "ESMA планирует пересмотреть реестр криптоактивов ЕС в рамках MiCA в 2027 году",
+"summary": "Новый реестр MiCA, созданный ESMA, заменит ручную отчетность и внедрит автоматизированные проверки данных, а также историю версий для криптографических технико-экономических обоснований.",
+"source": "Cointelegraph",
+"link": "https://cointelegraph.com/news/esma-overhaul-eu-mica-crypto-register-2027?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+"ts": 1795767669
 }
 ]
 }
