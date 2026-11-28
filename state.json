@@ -522,7 +522,8 @@
 "https://decrypt.co/384218/could-ai-break-bitcoin-not-yet-research-firm-k33-says",
 "https://www.coindesk.com/markets/2026/11/28/trump-linked-crypto-token-wlfi-plunges-over-50",
 "https://decrypt.co/384222/openai-countersuit-apple-trade-secret-theft-claims",
-"https://forklog.com/news/svyazannyj-s-trampom-token-wlfi-obvalilsya-bolee-chem-na-50"
+"https://forklog.com/news/svyazannyj-s-trampom-token-wlfi-obvalilsya-bolee-chem-na-50",
+"https://cointelegraph.com/news/justin-sun-calls-for-trump-family-linked-wlfi-token-to-be-delisted?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
 ],
 "recent_titles": [
 "Криптосообщество возмутил сериал Netflix о крахе FTX и роли Binance",
@@ -572,9 +573,10 @@
 "Квинтиллионы токенов ACE через мост Fusionist, утечка менеджера паролей 1Password и другие события кибербезопасности",
 "Binance получает предварительное одобрение и планирует открыть азиатский хаб в Бутане",
 "Связанный с Трампом криптотокен WLFI упал на 50% до рекордно низкого уровня",
-"Связанный с Трампом токен WLFI обвалился более чем на 50%"
+"Связанный с Трампом токен WLFI обвалился более чем на 50%",
+"Джастин Сан призывает исключить из листинга токен WLFI, связанный с семьей Трампа"
 ],
-"last_source": "ForkLog",
+"last_source": "Cointelegraph",
 "posted": [
 {
 "title": "FCC разрешила SpaceX создать ИИ-дата-центры в космосе",
@@ -715,6 +717,13 @@
 "source": "ForkLog",
 "link": "https://forklog.com/news/svyazannyj-s-trampom-token-wlfi-obvalilsya-bolee-chem-na-50",
 "ts": 1795865916
+},
+{
+"title": "Джастин Сан призывает исключить из листинга токен WLFI, связанный с семьей Трампа",
+"summary": "Сан также призвал биржи публиковать предупреждения, ограничивать депозиты и требовать раскрытия информации о том, куда были направлены средства.",
+"source": "Cointelegraph",
+"link": "https://cointelegraph.com/news/justin-sun-calls-for-trump-family-linked-wlfi-token-to-be-delisted?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+"ts": 1795874063
 }
 ]
 }
