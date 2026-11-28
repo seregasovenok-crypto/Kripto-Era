@@ -516,7 +516,11 @@
 "https://ru.beincrypto.com/michael-burry-ai-debt-mispriced-report/",
 "https://decrypt.co/384177/bitcoin-4-scary-charts-crypto-winter-bear-market",
 "https://decrypt.co/384154/7-billion-bitcoin-options-just-expired-what-it-means",
-"https://cointelegraph.com/news/binance-receives-in-principle-approval-plans-asia-hub-in-bhutan?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+"https://cointelegraph.com/news/binance-receives-in-principle-approval-plans-asia-hub-in-bhutan?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+"https://bits.media/novye-poshliny-i-vysokie-tseny-v-ssha-kriptorynok-rastet-na-negative/",
+"https://cointelegraph.com/news/franklin-templeton-hype-crypto-index-etf?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+"https://decrypt.co/384218/could-ai-break-bitcoin-not-yet-research-firm-k33-says",
+"https://www.coindesk.com/markets/2026/11/28/trump-linked-crypto-token-wlfi-plunges-over-50"
 ],
 "recent_titles": [
 "Криптосообщество возмутил сериал Netflix о крахе FTX и роли Binance",
@@ -564,9 +568,10 @@
 "Хакеры взломали облачную систему ВВС США, в которой хранятся данные о противовоздушной обороне и боеприпасах",
 "Криптокиты накапливают BTC, несмотря на сокращение подушки прибыли",
 "Квинтиллионы токенов ACE через мост Fusionist, утечка менеджера паролей 1Password и другие события кибербезопасности",
-"Binance получает предварительное одобрение и планирует открыть азиатский хаб в Бутане"
+"Binance получает предварительное одобрение и планирует открыть азиатский хаб в Бутане",
+"Связанный с Трампом криптотокен WLFI упал на 50% до рекордно низкого уровня"
 ],
-"last_source": "Cointelegraph",
+"last_source": "CoinDesk",
 "posted": [
 {
 "title": "FCC разрешила SpaceX создать ИИ-дата-центры в космосе",
@@ -693,6 +698,13 @@
 "source": "Cointelegraph",
 "link": "https://cointelegraph.com/news/binance-receives-in-principle-approval-plans-asia-hub-in-bhutan?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
 "ts": 1795853199
+},
+{
+"title": "Связанный с Трампом криптотокен WLFI упал на 50% до рекордно низкого уровня",
+"summary": "",
+"source": "CoinDesk",
+"link": "https://www.coindesk.com/markets/2026/11/28/trump-linked-crypto-token-wlfi-plunges-over-50",
+"ts": 1795858882
 }
 ]
 }
