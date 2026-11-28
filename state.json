@@ -524,7 +524,8 @@
 "https://decrypt.co/384222/openai-countersuit-apple-trade-secret-theft-claims",
 "https://forklog.com/news/svyazannyj-s-trampom-token-wlfi-obvalilsya-bolee-chem-na-50",
 "https://cointelegraph.com/news/justin-sun-calls-for-trump-family-linked-wlfi-token-to-be-delisted?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-"https://ru.beincrypto.com/deficzit-pamyati-dlya-ii-prodlitsya-do-2028-goda/"
+"https://ru.beincrypto.com/deficzit-pamyati-dlya-ii-prodlitsya-do-2028-goda/",
+"https://decrypt.co/384221/bank-of-japan-stablecoins-tokenized-finance-banking"
 ],
 "recent_titles": [
 "Криптосообщество возмутил сериал Netflix о крахе FTX и роли Binance",
@@ -576,9 +577,10 @@
 "Связанный с Трампом криптотокен WLFI упал на 50% до рекордно низкого уровня",
 "Связанный с Трампом токен WLFI обвалился более чем на 50%",
 "Джастин Сан призывает исключить из листинга токен WLFI, связанный с семьей Трампа",
-"Дефицит памяти и дорогие чипы: ИИ-бум продлится минимум до 2028 года"
+"Дефицит памяти и дорогие чипы: ИИ-бум продлится минимум до 2028 года",
+"Банк Японии изучает возможность внедрения стейблкоинов и токенизированных финансовых инструментов в традиционную банковскую систему"
 ],
-"last_source": "BeInCrypto",
+"last_source": "Decrypt",
 "posted": [
 {
 "title": "FCC разрешила SpaceX создать ИИ-дата-центры в космосе",
@@ -733,6 +735,13 @@
 "source": "BeInCrypto",
 "link": "https://ru.beincrypto.com/deficzit-pamyati-dlya-ii-prodlitsya-do-2028-goda/",
 "ts": 1795880118
+},
+{
+"title": "Банк Японии изучает возможность внедрения стейблкоинов и токенизированных финансовых инструментов в традиционную банковскую систему",
+"summary": "Центральный банк Японии изучает, как деньги на основе блокчейна могут взаимодействовать с традиционными платежными системами, поскольку официальные лица оценивают риски стейблкоинов и потенциальные преимущества более быстрого осуществления расчетов между банками.",
+"source": "Decrypt",
+"link": "https://decrypt.co/384221/bank-of-japan-stablecoins-tokenized-finance-banking",
+"ts": 1795887246
 }
 ]
 }
