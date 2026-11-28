@@ -520,7 +520,9 @@
 "https://bits.media/novye-poshliny-i-vysokie-tseny-v-ssha-kriptorynok-rastet-na-negative/",
 "https://cointelegraph.com/news/franklin-templeton-hype-crypto-index-etf?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
 "https://decrypt.co/384218/could-ai-break-bitcoin-not-yet-research-firm-k33-says",
-"https://www.coindesk.com/markets/2026/11/28/trump-linked-crypto-token-wlfi-plunges-over-50"
+"https://www.coindesk.com/markets/2026/11/28/trump-linked-crypto-token-wlfi-plunges-over-50",
+"https://decrypt.co/384222/openai-countersuit-apple-trade-secret-theft-claims",
+"https://forklog.com/news/svyazannyj-s-trampom-token-wlfi-obvalilsya-bolee-chem-na-50"
 ],
 "recent_titles": [
 "Криптосообщество возмутил сериал Netflix о крахе FTX и роли Binance",
@@ -569,9 +571,10 @@
 "Криптокиты накапливают BTC, несмотря на сокращение подушки прибыли",
 "Квинтиллионы токенов ACE через мост Fusionist, утечка менеджера паролей 1Password и другие события кибербезопасности",
 "Binance получает предварительное одобрение и планирует открыть азиатский хаб в Бутане",
-"Связанный с Трампом криптотокен WLFI упал на 50% до рекордно низкого уровня"
+"Связанный с Трампом криптотокен WLFI упал на 50% до рекордно низкого уровня",
+"Связанный с Трампом токен WLFI обвалился более чем на 50%"
 ],
-"last_source": "CoinDesk",
+"last_source": "ForkLog",
 "posted": [
 {
 "title": "FCC разрешила SpaceX создать ИИ-дата-центры в космосе",
@@ -705,6 +708,13 @@
 "source": "CoinDesk",
 "link": "https://www.coindesk.com/markets/2026/11/28/trump-linked-crypto-token-wlfi-plunges-over-50",
 "ts": 1795858882
+},
+{
+"title": "Связанный с Трампом токен WLFI обвалился более чем на 50%",
+"summary": "Нативный токен проекта World Liberty Financial (WLFI), связанного с семьей президента США Дональда Трампа, за сутки потерял более половины стоимости и обновил исторический минимум.",
+"source": "ForkLog",
+"link": "https://forklog.com/news/svyazannyj-s-trampom-token-wlfi-obvalilsya-bolee-chem-na-50",
+"ts": 1795865916
 }
 ]
 }
