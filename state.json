@@ -510,7 +510,13 @@
 "https://decrypt.co/384121/binance-fully-lifts-withdrawal-suspension-four-weeks-after-6-4b-hack",
 "https://decrypt.co/384118/kalshi-courts-small-businesses-with-microinsurance-as-state-crackdowns-bite",
 "https://decrypt.co/384104/ethereum-sets-december-15-date-for-delayed-glamsterdam-testnet-upgrade",
-"https://forklog.com/news/kvintilliony-tokenov-ace-cherez-most-fusionist-utechka-menedzhera-parolej-1password-i-drugie-sobytiya-kiberbezopasnosti"
+"https://forklog.com/news/kvintilliony-tokenov-ace-cherez-most-fusionist-utechka-menedzhera-parolej-1password-i-drugie-sobytiya-kiberbezopasnosti",
+"https://bits.media/nds-dlya-usdt-mozhet-otbit-u-rossiyan-zhelanie-idti-na-gosreguliruemyy-rynok-rakib/",
+"https://ru.beincrypto.com/us-dollar-longest-winning-streak-2027/",
+"https://ru.beincrypto.com/michael-burry-ai-debt-mispriced-report/",
+"https://decrypt.co/384177/bitcoin-4-scary-charts-crypto-winter-bear-market",
+"https://decrypt.co/384154/7-billion-bitcoin-options-just-expired-what-it-means",
+"https://cointelegraph.com/news/binance-receives-in-principle-approval-plans-asia-hub-in-bhutan?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
 ],
 "recent_titles": [
 "Криптосообщество возмутил сериал Netflix о крахе FTX и роли Binance",
@@ -557,9 +563,10 @@
 "Сложность майнинга биткоина выросла на 7,61%",
 "Хакеры взломали облачную систему ВВС США, в которой хранятся данные о противовоздушной обороне и боеприпасах",
 "Криптокиты накапливают BTC, несмотря на сокращение подушки прибыли",
-"Квинтиллионы токенов ACE через мост Fusionist, утечка менеджера паролей 1Password и другие события кибербезопасности"
+"Квинтиллионы токенов ACE через мост Fusionist, утечка менеджера паролей 1Password и другие события кибербезопасности",
+"Binance получает предварительное одобрение и планирует открыть азиатский хаб в Бутане"
 ],
-"last_source": "ForkLog",
+"last_source": "Cointelegraph",
 "posted": [
 {
 "title": "FCC разрешила SpaceX создать ИИ-дата-центры в космосе",
@@ -679,6 +686,13 @@
 "source": "ForkLog",
 "link": "https://forklog.com/news/kvintilliony-tokenov-ace-cherez-most-fusionist-utechka-menedzhera-parolej-1password-i-drugie-sobytiya-kiberbezopasnosti",
 "ts": 1795844918
+},
+{
+"title": "Binance получает предварительное одобрение и планирует открыть азиатский хаб в Бутане",
+"summary": "Это соглашение является важной вехой в усилиях Binance по расширению своего присутствия в Бутане с момента запуска национальной платежной системы для сферы туризма на базе криптовалют в 2025 году.",
+"source": "Cointelegraph",
+"link": "https://cointelegraph.com/news/binance-receives-in-principle-approval-plans-asia-hub-in-bhutan?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+"ts": 1795853199
 }
 ]
 }
