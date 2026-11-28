@@ -38,6 +38,7 @@ MSK = timezone(timedelta(hours=3))
 STATE_FILE = "state.json"
 OUT_DIR = os.environ.get("VIDEO_OUT", "out")
 N_NEWS = int(os.environ.get("VIDEO_NEWS", "3"))
+SKIP = int(os.environ.get("VIDEO_SKIP", "0"))  # пропустить N самых свежих (для второго ролика)
 VOICE = os.environ.get("VIDEO_VOICE", "ru-RU-DmitryNeural")
 VOICE_RATE = os.environ.get("VIDEO_VOICE_RATE", "+8%")
 NEWS_MAX_AGE_HOURS = 26
@@ -128,15 +129,17 @@ def gather_news():
     posted = [p for p in load_state().get("posted", [])
               if now - p.get("ts", 0) < NEWS_MAX_AGE_HOURS * 3600]
     posted.sort(key=lambda p: -p.get("ts", 0))
-    news = posted[:N_NEWS]
-    if len(news) < N_NEWS:
+    need = N_NEWS + SKIP
+    news = posted[:need]
+    if len(news) < need:
         titles = {n["title"] for n in news}
-        for item in fetch_rss(N_NEWS):
-            if len(news) >= N_NEWS:
+        for item in fetch_rss(need):
+            if len(news) >= need:
                 break
             if item["title"] and item["title"] not in titles:
                 news.append(item)
                 titles.add(item["title"])
+    news = news[SKIP:]
     return news
 
 
@@ -188,7 +191,7 @@ def build_script(news, date):
     word = {1: "главная новость", 2: "главные новости", 3: "главные новости", 4: "главные новости"}.get(n, "главных новостей")
     segments = [{
         "kind": "intro",
-        "voice": f"{n} {word} крипты за {day}. Смотри до конца!",
+        "voice": f"Новости дня. {n} {word} крипты. Смотри до конца!",
         "title": f"{n} {word.upper()} КРИПТЫ",
         "theme": ("intro", (0, 200, 170), "₿"),
         "trend": 0,
@@ -219,8 +222,7 @@ def build_script(news, date):
 
 
 def build_caption(news, date):
-    day = f"{date.day} {MONTHS[date.month - 1]}"
-    lines = [f"Главное в крипте за {day} 🔥", ""]
+    lines = ["Новости дня 🔥", ""]
     for i, item in enumerate(news, 1):
         lines.append(f"{i}. {item['title'].strip().rstrip('.')}")
     tags = ["#крипта", "#криптовалюта", "#новости", "#биткоин", "#bitcoin", "#инвестиции", "#криптоэра"]
@@ -470,7 +472,7 @@ def foreground(seg):
             d.text((W // 2, 270 + i * 108), line, font=f_big, fill="white", anchor="ma",
                    stroke_width=4, stroke_fill=(0, 0, 0))
         f_date = font(FONT_BOLD, 50)
-        label = f"за {seg['date']}"
+        label = "НОВОСТИ ДНЯ"
         tw = d.textlength(label, font=f_date)
         pill(d, W // 2 - (tw + 52) / 2, 270 + len(lines) * 108 + 20, label, f_date,
              color + (255,), color=(10, 12, 24))
